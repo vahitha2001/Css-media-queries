@@ -1,0 +1,16 @@
+
+h1{
+    color: yellow;
+}
+
+@media screen and (max-width:600px) {
+    h1{
+        color:royalblue;
+    }
+}
+
+@media screen and (max-width:400px) {
+    h1{
+        color:red;
+    }
+}
