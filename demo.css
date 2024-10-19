@@ -1,0 +1,33 @@
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.d1{
+    background-color: aqua;
+    margin: 5%;
+    height: 10rem;
+    width: 10rem;
+}
+
+.d2{
+    background-color: blueviolet;
+    margin: 5%;
+    height: 10rem;
+    width: 10rem;
+}
+
+.d3{
+    background-color: lightgreen;
+    margin: 5%;
+    height: 10rem;
+    width: 10rem;
+}
+
+.d4{
+    background-color: blue;
+    margin: 5%;
+    height: 10rem;
+    width: 10rem;
+}

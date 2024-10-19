@@ -1,0 +1,12 @@
+
+
+img{
+    margin: 10px;
+    float: left;
+}
+
+@media screen and (max-width:600px) {
+    img{
+        float: none;
+    }
+}
