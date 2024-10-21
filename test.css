@@ -1,0 +1,55 @@
+
+.gbox,.bbox,.grbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.green{
+    background-color: olivedrab;
+    margin: 2px;
+    height: 10rem;
+    flex-basis: 100%;
+}
+
+.blue{
+    background-color: teal;
+    margin: 2px;
+    height: 12rem;
+    flex-basis: 30%;
+}
+
+.grey{
+    background-color: gainsboro;
+    margin: 2px;
+    height: 8rem;
+    flex-basis: 20%;
+}
+
+@media screen and (max-width:800px) {
+    .green{
+        flex-basis: 100%;
+    }
+
+    .blue{
+        flex-basis: 100%;
+    }
+
+    .grey{
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .green{
+        flex-basis: 100%;
+    }
+
+    .blue{
+        flex-basis: 100%;
+    }
+
+    .grey{
+        flex-basis: 100%;
+    }
+}
